@@ -21,7 +21,9 @@ public class Math {
         return c*c;
     }
 
-
+    public int minus(int c,int d){
+        return c-d;
+    }
 
     public int double_call(int a){
         return devide(a,a);
