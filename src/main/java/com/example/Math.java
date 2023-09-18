@@ -16,4 +16,8 @@ public class Math {
         if( bb == 0)    return 999999999;
         else return a/bb;
     }
+
+    public int square(int c){
+        return c*c;
+    }
 }
