@@ -24,4 +24,8 @@ public class Math {
     public int double_call(int a){
         return devide(a,a);
     }
+
+    public int double_call1(int a){
+        return square(a);
+    }
 }
