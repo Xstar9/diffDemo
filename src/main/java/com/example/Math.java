@@ -20,4 +20,8 @@ public class Math {
     public int square(int c){
         return c*c;
     }
+
+    public int double_call(int a){
+        return devide(a,a);
+    }
 }

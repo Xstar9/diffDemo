@@ -12,11 +12,18 @@ public class MathTest {
         int result = math.multiply(1, 1);
         Assert.assertEquals("multiply test error", 1, result);
     }
-
+    @org.junit.Test
+    public void call() {
+        Math math = new Math();
+        int result = math.double_call(0);
+        Assert.assertEquals("multiply test error", 0, result);
+    }
 //    @org.junit.Test
 //    public void devide() {
 //        Math math = new Math();
 //        int result = math.devide(2, 1);
 //        Assert.assertEquals("multiply test error", 2, result);
 //    }
+
+
 }
