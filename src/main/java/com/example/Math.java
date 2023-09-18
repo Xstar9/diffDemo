@@ -12,6 +12,7 @@ public class Math {
     }
 
     public int devide(int a,int bb){
+        if( bb == 0)    return 999999999;
         return a/bb;
     }
 }
