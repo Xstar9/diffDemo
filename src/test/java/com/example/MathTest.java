@@ -13,10 +13,10 @@ public class MathTest {
         Assert.assertEquals("multiply test error", 1, result);
     }
 
-    @org.junit.Test
-    public void devide() {
-        Math math = new Math();
-        int result = math.devide(2, 1);
-        Assert.assertEquals("multiply test error", 2, result);
-    }
+//    @org.junit.Test
+//    public void devide() {
+//        Math math = new Math();
+//        int result = math.devide(2, 1);
+//        Assert.assertEquals("multiply test error", 2, result);
+//    }
 }

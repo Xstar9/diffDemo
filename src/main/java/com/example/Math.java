@@ -8,7 +8,8 @@ package com.example;
  */
 public class Math {
     public int multiply(int a,int bb){
-        return a*bb;
+        if(a==0) return 0;
+        else return a*bb;
     }
 
     public int devide(int a,int bb){
