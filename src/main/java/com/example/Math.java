@@ -25,7 +25,7 @@ public class Math {
         return devide(a,a);
     }
 
-    public int double_call1(int a){
-        return square(a);
-    }
+//    public int double_call1(int a){
+//        return square(a);
+//    }
 }
