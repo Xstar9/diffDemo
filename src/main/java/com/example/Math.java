@@ -7,7 +7,7 @@ package com.example;
  * @modified By:
  */
 public class Math {
-    public int multiply(int a,int b){
-        return a*b;
+    public int multiply(int a,int bb){
+        return a*bb;
     }
 }
