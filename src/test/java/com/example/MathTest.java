@@ -15,7 +15,7 @@ public class MathTest {
     @org.junit.Test
     public void call1() {
         Math math = new Math();
-        int result = math.double_call(0);
+        int result = math.minus(0,1);
         Assert.assertEquals("multiply test error", 0, result);
     }
 

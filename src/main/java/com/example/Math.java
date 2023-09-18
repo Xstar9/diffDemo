@@ -22,9 +22,14 @@ public class Math {
     }
 
     public int minus(int c,int d){
+        if(c!=0) return 1;
         return c-d;
     }
 
+    public int minus1(int c,int d){
+        if(c!=0) return 2;
+        return c-d;
+    }
     public int double_call(int a){
         return devide(a,a);
     }
