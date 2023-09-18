@@ -10,4 +10,8 @@ public class Math {
     public int multiply(int a,int bb){
         return a*bb;
     }
+
+    public int devide(int a,int bb){
+        return a/bb;
+    }
 }
