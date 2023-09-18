@@ -16,6 +16,8 @@ public class MathTest {
     public void call1() {
         Math math = new Math();
         int result = math.minus(0,1);
+        int re = math.double_call(0);
+        int rrr = math.minus1(2,1);
         Assert.assertEquals("multiply test error", 0, result);
     }
 
